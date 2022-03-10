@@ -1,7 +1,7 @@
 import gradio
 
 def hello(inp):
-  return f"Hello {inp}!"
+  return f"Hello {inp}!!"
 
 # For information on Interfaces, head to https://gradio.app/docs/
 # For user guides, head to https://gradio.app/guides/
