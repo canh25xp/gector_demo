@@ -1,9 +1,21 @@
 import gradio
+import os
 
 
 def hello(inp):
-    return f"Hello {inp}!!"
+    # Get the current directory path
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    # List all files in the directory
+    files = os.listdir(current_dir)
+    # Print the list of files
+    print("Files in the directory:")
+    ret = ""
+    for file in files:
+        ret += file
+        ret += "\n"
+        print(file)
 
+    return ret
 
 # For information on Interfaces, head to https://gradio.app/docs/
 # For user guides, head to https://gradio.app/guides/
