@@ -1,5 +1,5 @@
 [submodule "gector"]
-	path = gector
-	url = https://github.com/canh25xp/gector
+  path = gector
+  url = https://github.com/canh25xp/gector
   ignore = all
   branch = gradio_demo
