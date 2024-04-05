@@ -21,6 +21,7 @@ reportOptionalMemberAccess = false
 reportFunctionMemberAccess = false
 reportAttributeAccessIssue = false
 reportGeneralTypeIssues = false
+reportArgumentType = false
 
 [build-system]
 requires = ["setuptools>=61.0"]
