@@ -13,7 +13,7 @@ def load(model_path = "models/roberta_1_gectorv2.th"):
     confidence_bias = 0.20
 
     return GecBERTModel(
-        vocab_path="test_fixtures/roberta_model/vocabulary",
+        vocab_path="gector/test_fixtures/roberta_model/vocabulary",
         model_paths=[model_path],
         max_len=50,
         min_len=3,
@@ -77,7 +77,7 @@ examples = [
 
 if __name__ == "__main__":
     model_path = hf_hub_download("canh25xp/GECToR-Roberta", "roberta_1_gectorv2.th")
-    model = load()
+    model = load(model_path)
 
     def get_prediction(text, model_name):
         if model_name != "GECToR-Roberta":
