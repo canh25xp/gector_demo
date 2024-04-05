@@ -1,6 +1,6 @@
 ---
-title: Gradio
-emoji: 🏃
+title: Gector Demo
+emoji: 🤖
 colorFrom: blue
 colorTo: indigo
 sdk: gradio
